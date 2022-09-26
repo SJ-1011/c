@@ -19,7 +19,6 @@ int main(void) {
 		int temp;                            // 줄 당 데이터들을 저장할 변수 선언
 		fscanf_s(fp, "%d", &temp);           // str 타입의 데이터를 int로 temp 변수에 저장
 		if (temp == num) {                   // 10000000, 2839004, 6896383 데이터에 접근 시 for문에서 빠져나옴
-			printf("%d\n", i);
 			break;
 		}
 	}
